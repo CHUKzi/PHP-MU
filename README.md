@@ -1,25 +1,40 @@
 # PHP-MU
 
-PHP-MU is a shell script designed to set up a server environment with multiple PHP versions (8.1, 8.2, and 8.3) along with their commonly used extensions. This script automates the installation process, making it quick and efficient.
-
-## Features
-- Installs PHP 8.1, PHP 8.2, and PHP 8.3.
-- Configures extensions such as `mysql`, `mbstring`, `dom`, `xml`, `curl`, `zip`, `bcmath`, `intl`, `soap`, `gd`, and `imagick`.
-- Includes a step-by-step progress indicator.
-- Cleans up unnecessary packages after installation.
+**PHP-MU** is a powerful shell script that sets up a server environment with multiple PHP versions (7.4, 8.1, 8.2, 8.3, and 8.4) along with their commonly used extensions.  
+It automates the entire installation process, saving you time and avoiding manual setup errors.
 
 ---
 
-## Requirements
+## ✨ Features
+
+- Install multiple PHP versions:
+   - PHP 7.4
+   - PHP 8.1
+   - PHP 8.2
+   - PHP 8.3
+   - PHP 8.4
+- Install essential PHP extensions for each version:
+   - `mysql`, `mbstring`, `dom`, `xml`, `curl`, `zip`, `bcmath`, `intl`, `soap`, `gd`, `imagick`, `grpc`, and `redis`.
+- Choose to install:
+   - All PHP versions at once.
+   - Only a specific PHP version.
+- Switch the default active PHP version easily.
+- Step-by-step progress indicator during installation.
+- Automatic cleanup of unnecessary packages after setup.
+
+---
+
+## 🛠️ Requirements
+
 - Ubuntu or Debian-based Linux distribution.
-- Root or `sudo` access.
+- `sudo` privileges (or root access).
+- Internet connection (to fetch packages and repositories).
 
 ---
 
-## Installation
+## 📥 Installation
 
-1. Clone or download this repository to your local machine.
-
-2. Make the script executable:
+1. **Clone this repository**:
    ```bash
-   chmod +x php-mu.sh
+   git clone https://github.com/CHUKzi/PHP-MU
+   cd php-mu
