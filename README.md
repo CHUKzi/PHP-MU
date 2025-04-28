@@ -34,7 +34,8 @@ It automates the entire installation process, saving you time and avoiding manua
 
 ## 📥 Installation
 
-1. **Clone this repository**:
    ```bash
-   git clone https://github.com/CHUKzi/PHP-MU
-   cd php-mu
+     git clone https://github.com/CHUKzi/PHP-MU
+     cd php-mu
+     chmod +x php-mu.sh
+   
